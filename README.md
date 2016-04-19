@@ -1,11 +1,20 @@
 这是我最近用`hexo`搭建的个人博客,欢迎来参观留言,以下是我创建这个`hexo`的一步步步骤，欢迎指正!
 
+### 使用
+1. 新建文件夹,在其中 `git@github.com:winterZhao/hexoBlog.git` 或者`fork`;
+2. 本地`hexo server`;
+3. 浏览器输入`localhost:4000`
+
+
+### 参考
+
 **[我的博客](http://winterzhao.github.io/)**
 
 参考自 [潘柏信的博客](http://leopardpan.github.io/2015/08/12/hexo/);[CnFeat](http://www.jianshu.com/p/05289a4bc8b2)
 主题参考这里 [pacman](https://yangjian.me/pacman/hello/introducing-pacman-theme/);
 主题选自这里 [hexadillax](https://github.com/XadillaX/hexadillax)
 
+### 教程
 
 #### 1. 安装node;
 
