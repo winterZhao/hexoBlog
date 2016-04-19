@@ -145,4 +145,4 @@ sitemap:
 
 　　11.5. 命令窗口 `hexo deploy`;   //推送到github上
 
-   **注**:当我们`hexo deploy`的时候,会只将部分文件推送到github上，这是hexo默认的，不影响结构。
+   **注**:当我们`hexo deploy`的时候,会只将`public`文件推送到github上，这是hexo默认的，不影响结构。
