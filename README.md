@@ -78,10 +78,10 @@ title: categories
 
 #### 7.添加百度统计
 
-　　7.1. `_config.yml` 配置文件里添加`baidu_tongji:true`;<br/>
+　　7.1. `_config.yml` 配置文件里添加`baidu_tongji:true`;
 　　
-　　7.2. 申请百度统计账号，复制统计代码到`themes/hexadillax/layout/partial`;　　
-
+　　7.2. 申请百度统计代码,复制统计代码到`themes/hexadillax/layout/partial`;　
+　　
 #### 8. 上传到github上，覆盖之前的;
 
 　　8.1. `npm install hexo-deployer-git --save`;
