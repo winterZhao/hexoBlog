@@ -1,20 +1,13 @@
 这是我最近用`hexo`搭建的个人博客,欢迎来参观留言,以下是我创建这个`hexo`的一步步步骤，欢迎指正!
 
-### 使用
-1. 新建文件夹,在其中 `git@github.com:winterZhao/hexoBlog.git` 或者`fork`;
-2. 本地`hexo server`;
-3. 浏览器输入`localhost:4000`
+　　**[我的博客](http://winterzhao.github.io/)**
 
+　　参考自 [潘柏信的博客](http://leopardpan.github.io/2015/08/12/hexo/);[CnFeat](http://www.jianshu.com/p/05289a4bc8b2)
 
-### 参考
+　　主题参考这里 [pacman](https://yangjian.me/pacman/hello/introducing-pacman-theme/);
 
-**[我的博客](http://winterzhao.github.io/)**
+　　主题选自这里 [hexadillax](https://github.com/XadillaX/hexadillax)
 
-参考自 [潘柏信的博客](http://leopardpan.github.io/2015/08/12/hexo/);[CnFeat](http://www.jianshu.com/p/05289a4bc8b2)
-主题参考这里 [pacman](https://yangjian.me/pacman/hello/introducing-pacman-theme/);
-主题选自这里 [hexadillax](https://github.com/XadillaX/hexadillax)
-
-### 教程
 
 #### 1. 安装node;
 
@@ -85,7 +78,9 @@ title: categories
 
 #### 7.添加百度统计
 
-    `_config.yml` 配置文件里添加`baidu_analytics:  id`;
+    7.1. `_config.yml` 配置文件里添加`baidu_tongji: true`;
+
+    7.2. 申请百度统计账号,复制统计代码到`themes/hexadillax/layout/_partial/`
 
 #### 8. 上传到github上，覆盖之前的;
 
@@ -145,4 +140,4 @@ sitemap:
 
 　　11.5. 命令窗口 `hexo deploy`;   //推送到github上
 
-   **注**:当我们`hexo deploy`的时候,会只将`public`文件推送到github上，这是hexo默认的，不影响结构。
+   **注**:当我们`hexo deploy`的时候,会只将部分文件推送到github上，这是hexo默认的，不影响结构。
