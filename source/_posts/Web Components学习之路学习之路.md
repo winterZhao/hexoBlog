@@ -1,5 +1,5 @@
-layout: '''web'
-title: 学习之路'
+---
+title: 'Web Components 学习之路'
 date: 2016-04-29 18:58:32
 tags: HTML5
 ---
